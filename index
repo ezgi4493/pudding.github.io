@@ -1,9 +1,154 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unveiling the Magic: HTML and CSS Tricks</title>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body>
+    <h1>Unveiling the Magic: HTML and CSS Tricks</h1>
 
-<body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+    <h2>HTML Tricks:</h2>
 
+    <table>
+      <tr>
+        <th>Code</th>
+        <th>Explanation</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td><code>&lt;mark&gt;This is highlighted text&lt;/mark&gt;</code></td>
+        <td>
+          Use the <code>&lt;mark&gt;</code> tag to highlight text within a
+          paragraph.
+        </td>
+        <td>This is an example of <mark>highlighted text</mark> in HTML.</td>
+      </tr>
+      <tr>
+        <td>
+          <code
+            >&lt;abbr title="Hypertext Markup
+            Language"&gt;HTML&lt;/abbr&gt;</code
+          >
+        </td>
+        <td>
+          Employ the <code>&lt;abbr&gt;</code> tag to provide an abbreviation
+          with a full explanation.
+        </td>
+        <td>
+          The abbreviation for
+          <abbr title="Cascading Style Sheets">CSS</abbr> is commonly used in
+          web design.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <code
+            >&lt;details&gt;&lt;summary&gt;Click
+            me&lt;/summary&gt;&lt;p&gt;Hidden content
+            revealed!&lt;/p&gt;&lt;/details&gt;</code
+          >
+        </td>
+        <td>
+          Create a dropdown effect with the <code>&lt;details&gt;</code> and
+          <code>&lt;summary&gt;</code> tags.
+        </td>
+        <td>
+          <details>
+            <summary>Click me</summary>
+            <p>Hidden content revealed!</p>
+          </details>
+        </td>
+      </tr>
+      <tr>
+        <td><code>&lt;sup&gt;Superscript&lt;/sup&gt;</code></td>
+        <td>
+          Elevate text with the <code>&lt;sup&gt;</code> tag for superscript.
+        </td>
+        <td>E=mc<sup>2</sup></td>
+      </tr>
+      <tr>
+        <td>
+          <code
+            >&lt;audio controls&gt;&lt;source src="audio.mp3"
+            type="audio/mp3"&gt;&lt;/audio&gt;</code
+          >
+        </td>
+        <td>
+          Embed an audio file with the <code>&lt;audio&gt;</code> tag, complete
+          with playback controls.
+        </td>
+        <td><a href="audio.mp3" download>Listen to the audio</a></td>
+      </tr>
+    </table>
+
+    <h2>CSS Tricks:</h2>
+
+    <table>
+      <tr>
+        <th>Code</th>
+        <th>Explanation</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td><code>text-transform: uppercase;</code></td>
+        <td>Transform text to uppercase with CSS.</td>
+        <td><h1 style="text-transform: uppercase;">Heading</h1></td>
+      </tr>
+      <tr>
+        <td><code>box-shadow: 5px 5px 10px #888888;</code></td>
+        <td>Add a subtle box shadow for a lifted effect.</td>
+        <td>Apply this to a div or any other container.</td>
+      </tr>
+      <tr>
+        <td><code>transform: rotate(45deg);</code></td>
+        <td>Rotate an element with the <code>transform</code> property.</td>
+        <td><div style="transform: rotate(45deg);">Rotated Box</div></td>
+      </tr>
+      <tr>
+        <td>
+          <code>background: linear-gradient(to right, #ff7e5f, #feb47b);</code>
+        </td>
+        <td>Apply a gradient background with CSS.</td>
+        <td>Set this as the background of a container.</td>
+      </tr>
+      <tr>
+        <td><code>animation: fadeIn 2s;</code></td>
+        <td>Implement a fade-in animation with CSS.</td>
+        <td>
+          Define
+          <code
+            >@keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }</code
+          >
+        </td>
+      </tr>
+    </table>
+
+    <h2>General Tips for HTML & CSS:</h2>
+
+    <ul>
+      <li>
+        <strong>Semantic HTML:</strong> Use semantic elements to enhance the
+        structure and meaning of your HTML, improving accessibility and SEO.
+      </li>
+      <li>
+        <strong>Responsive Design:</strong> Employ media queries in your CSS for
+        a responsive layout that adapts to different screen sizes.
+      </li>
+      <li>
+        <strong>CSS Flexbox & Grid:</strong> Master the power of Flexbox and
+        Grid for efficient and flexible layouts.
+      </li>
+      <li>
+        <strong>CSS Variables:</strong> Leverage CSS variables for easy and
+        centralized style management.
+      </li>
+      <li>
+        <strong>Browser Compatibility:</strong> Always check and ensure
+        cross-browser compatibility to provide a consistent experience for all
+        users.
+      </li>
+    </ul>
+  </body>
 </html>
